@@ -1,5 +1,6 @@
 .section-recherche {
     display: flex;
+    flex-direction: column;
 }
 
 .formulaire,
