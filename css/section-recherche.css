@@ -1,0 +1,9 @@
+.section-recherche {
+    display: flex;
+}
+
+.formulaire,
+.filtres,
+.boutons-filtre{
+    display: flex;
+}
