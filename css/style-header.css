@@ -20,16 +20,14 @@ header{
     gap: 10px;
 }
 
-.link-hebergements, 
-.link-activites {
+.menu-links{
     display: flex;
     border-top: 2px solid transparent;
     transition: color 0.2s, border-top-color 0.2s;
     padding-top: 16px;
 }
 
-.link-hebergements:hover, 
-.link-activites:hover{
+.menu-links:hover{
     color: #0065FC ;
     border-top-color: #0065FC;
 }
