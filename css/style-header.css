@@ -23,11 +23,17 @@ header{
 .menu-links{
     display: flex;
     border-top: 2px solid transparent;
-    transition: color 0.2s, border-top-color 0.2s;
     padding-top: 16px;
 }
 
 .menu-links:hover{
     color: #0065FC ;
     border-top-color: #0065FC;
+}
+
+@media screen and (max-width: 768px) {
+    .menu-links:hover{
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+    }
 }
