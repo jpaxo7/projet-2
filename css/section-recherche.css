@@ -101,3 +101,7 @@
     justify-content: center;
     font-size: 10px ;
 }
+
+.bouton:hover{
+    background-color:#DEEBFF ;
+}
