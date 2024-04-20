@@ -41,6 +41,8 @@
     justify-content: center;
     width: 147px;
     font-weight: 700;
+    border-width: 1px 0px;
+    text-align: center;
 }
 
 .bouton-rechercher{
@@ -48,6 +50,7 @@
     width: 132px;
     height: 49px;
     border: 1px;
+    padding: 15px 16px;
     border-radius: 0px 15px 15px 0px;
     background-color: #0065FC;
     border-color: #0065FC;
@@ -55,6 +58,7 @@
     justify-content: center;
     color: #ffffff;
     font-weight: 700;
+    font-size: 18px;
 }
 
 .filtres{
