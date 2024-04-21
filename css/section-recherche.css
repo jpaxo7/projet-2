@@ -45,7 +45,7 @@
     text-align: center;
 }
 
-.bouton-rechercher{
+.bouton-rechercher {
     display: flex;
     width: 132px;
     height: 49px;
@@ -95,6 +95,10 @@
     gap: 10px;
 }
 
+.bottom-text p{
+    margin: 0px;
+}
+
 .fa-info{
     width: 24px;
     height: 24px;
@@ -108,4 +112,43 @@
 
 .bouton:hover{
     background-color:#DEEBFF ;
+}
+
+.fa-magnifying-glass{
+    color: #ffffff;
+    display: none;
+}
+
+/*MEDIA QUERIES A AJOUTER POUR LE BOUTON RECHERCHER*/
+
+@media screen and (max-width: 768px) {
+    .bouton-rechercher p{
+        display: none;
+    }
+
+    .bouton-rechercher i {
+        display: block;
+    }
+
+    .bouton-rechercher{
+        width: 49px;
+        border-radius: 15px;
+        box-shadow: 0px 4px 4px 0px #00000040;
+    }
+
+    .input{
+        flex-grow: 1;
+    }
+
+    .filtres{
+        flex-direction: column;
+        align-items: start;
+        height: 161px;
+
+    }
+
+    .boutons-filtre{
+        flex-wrap: wrap;
+    }
+
 }
