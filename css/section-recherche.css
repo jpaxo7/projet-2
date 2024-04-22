@@ -148,7 +148,13 @@
     }
 
     .boutons-filtre{
-        flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 162.5px 162.5px ;
+      grid-template-rows: 50px 50px;
+    }
+
+    .fa-info{
+        flex-shrink: 0;
     }
 
 }
