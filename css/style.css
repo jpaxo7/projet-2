@@ -121,7 +121,12 @@ a {
     margin-bottom: 5px;
 }
 
+/*Activités*/
 
+.activites{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
