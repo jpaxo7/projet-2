@@ -8,7 +8,6 @@ header{
 
 .menu{
     display:flex;
-    left: 1096px;
     padding: 0px 50px 0px 50px;
     gap: 68px;
     text-align: center;
@@ -17,7 +16,6 @@ header{
 .logo{
     display: flex;
     padding: 30px 50px 30px 50px;
-    gap: 10px;
 }
 
 .menu-links{
@@ -32,6 +30,12 @@ header{
 }
 
 @media screen and (max-width: 768px) {
+    
+        header{
+            flex-direction: column;
+            height: 115px;
+            margin-bottom: 30px;
+        }
 
     .menu-links{
         border-top: none;
@@ -40,12 +44,6 @@ header{
 
     .menu-links:hover{
         border-bottom: 2px solid #0065FC;
-    }
-
-    header{
-        flex-direction: column;
-        height: 115px;
-        margin-bottom: 30px;
     }
 
     .logo{
