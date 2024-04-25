@@ -217,6 +217,7 @@ a {
 
     .populaires-cards a, .hebergements-cards a{
         width: 100%;
+        margin-top: 20px;
     }
 
     .hebergements-and-populaires section {
@@ -225,6 +226,10 @@ a {
 
     .hebergements-and-populaires .populaires{
         background-color: #F2F2F2;
+    }
+
+    .populaires-cards .card, .hebergements-cards .card{
+        margin-top: 0px;
     }
 
     }
