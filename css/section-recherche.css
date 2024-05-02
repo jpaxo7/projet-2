@@ -85,7 +85,7 @@
     margin-left: 10px;
 }
 
-.bouton{
+.bouton{ 
     display: flex;
     font-weight: 700;
     padding: 4px 19px;
@@ -125,9 +125,7 @@
     display: none;
 }
 
-/*MEDIA QUERIES A AJOUTER POUR LE BOUTON RECHERCHER*/
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) and (min-width: 768px){
 
     .filtres{
         flex-direction: column;
@@ -161,7 +159,8 @@
 
 @media screen and (max-width: 768px) {
 
-    .main-container{
+    .section-recherche{
+        margin-bottom: 0px;
         padding: 0px 20px;
     }
 
@@ -185,7 +184,7 @@
 
     .filtres{
         flex-direction: column;
-        height: 161px;
+        height: 200px;
     }
     
     .filtres p{
@@ -198,18 +197,17 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
+        justify-content: space-around;
       }
 
     .bouton{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        flex: 1;
-        /*flex-basis: calc(50%-10px);*/
-        /* margin: 20px 0px 0px 0px;
-        height: 35px; */
-        width: 50%;
+        margin-left: 0px;
+        flex-basis: 33%;
+        margin-top: 20px;
+        height: 40px;
     }
 
     .bouton p{
@@ -222,7 +220,7 @@
     }
 
     .bottom-text{
-        margin-top: 35px;
+        margin-top: 30px;
     }
 
 }

@@ -296,6 +296,11 @@ footer{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+
+    .main-container{
+        padding: 0px;
+    }
+
     body{
         margin: 0px;
     }
@@ -329,7 +334,8 @@ footer{
 /* activités */
 
     .activites{
-        padding-bottom: 30px;
+        padding: 0px 30px 30px 30px;
+        margin: 0px;
     }
 
     .activites-cards{
