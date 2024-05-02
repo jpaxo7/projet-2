@@ -21,7 +21,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0px 50px;
     box-sizing: border-box;
 }
 
@@ -84,10 +84,7 @@ a {
 }
 
 .hebergements-cards a{
-    width: 30%;
-}
-
-.hebergements-cards .card{
+    width: 31%;
     margin-top: 30px;
 }
 
@@ -231,14 +228,26 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+/* hébergements et populaires */
     .hebergements-and-populaires {
         flex-direction: column;
     }
+    
+    .populaires-cards .card, .hebergements-cards .card{
+        margin-top: 0px;
+    }
 
+/* hébergements */
     .hebergements {
         width: 100%;
     }
 
+    .hebergements-cards a{
+        margin-top: 30px;
+    }
+
+/* populaires */
     .populaires {
         width: 100%;
         margin-top: 50px;
@@ -261,14 +270,34 @@ footer{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .populaires-cards a{
+        margin-top: 20px;
+        width: 32%;
+    }
+
+/* activités */
+    .activites-cards img{
+        height: 200px;
+    }
+
+    .activites-cards .card-title{
+        padding: 0px 19px;
+    }
+
+    .activites-cards h3{
+        height: 70px;
+        align-content: center;
+        padding: 0px;
+    }
+
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
-
-    .main-container{
-        padding: 0px;
+    body{
+        margin: 0px;
     }
 
     .hebergements-and-populaires {
@@ -290,9 +319,36 @@ footer{
 
     .hebergements-and-populaires .populaires{
         background-color: #F2F2F2;
+        border-radius: 0px;
     }
 
     .populaires-cards .card, .hebergements-cards .card{
         margin-top: 0px;
+    }
+
+/* activités */
+
+    .activites{
+        padding-bottom: 30px;
+    }
+
+    .activites-cards{
+        flex-direction: column;
+    }
+
+    .activites-cards a{
+        width: 100%;
+        margin-top: 15px;
+    }
+
+/* footer */
+
+    footer{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .footer-block{
+        width: 100%;
     }
 }
