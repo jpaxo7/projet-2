@@ -100,6 +100,7 @@ a {
 
 .hebergements-cards .card-title{
     margin: 0px;
+    height: 38px;
 }
 
 .hebergements-cards .card-subtitle{
@@ -196,6 +197,7 @@ a {
 .activites-cards .card-title{
     padding: 20px 19px;
     margin: 0px;
+    height: 38px;
 }
 /*footer*/
 
@@ -292,6 +294,18 @@ footer{
     }
 
 }
+
+@media screen and (max-width: 857px) and (min-width: 768px){
+
+    .hebergements-cards .card-title{
+        font-size: 13px;
+    }
+
+    .hebergements-cards .card-subtitle{
+        font-size: 15px;
+    }
+}
+
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
