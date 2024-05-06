@@ -54,6 +54,10 @@ header{
         padding: 30px;
     }
 
+    .logo img{
+        width: 60.5px;
+    }
+
     .menu{
         display: grid;
         padding: 0;
