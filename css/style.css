@@ -249,6 +249,10 @@ footer{
         margin-top: 30px;
     }
 
+    .hebergements .card-subtitle{
+        font-size: 99%;
+    }
+
 /* populaires */
     .populaires {
         width: 100%;
@@ -294,18 +298,6 @@ footer{
     }
 
 }
-
-@media screen and (max-width: 857px) and (min-width: 768px){
-
-    .hebergements-cards .card-title{
-        font-size: 13px;
-    }
-
-    .hebergements-cards .card-subtitle{
-        font-size: 15px;
-    }
-}
-
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
