@@ -188,7 +188,7 @@
 
     .filtres{
         flex-direction: column;
-        height: 200px;
+        height: auto;
     }
     
     .filtres p{
